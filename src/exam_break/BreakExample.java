@@ -32,7 +32,7 @@ public class BreakExample {
             //평균
             if (count > 0) {           //(조건식)     //카운트된게 0보다 크면,
                 double avg = (double) sum / count;  //평균 구함
-                System.out.println("평균: " + avg + "점");
+//                System.out.println("평균: " + avg + "점");
 
 
 

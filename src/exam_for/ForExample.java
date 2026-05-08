@@ -15,6 +15,8 @@ public class ForExample {
         System.out.println("3의 배수를 1~10까지 더한 값: " + sum);
         System.out.println("3의 배수를 1~10까지 더한 값: " + sum);
 
+        System.out.println("3의 배수를 1~10까지 더한 값: " + sum);
+
 
     }
 }

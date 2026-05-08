@@ -85,7 +85,7 @@ public class ArryExample2 {
 
         charArray = new char[str.length()];     //문자열 크기를 알수 없기 때문에, (str 문자) str.length 문자가 가지고 있는 길이수를 가져온다
 
-        for (int i = 0; i < charArray.length; i++) {
+        for (int i = 0; i < charArray.length; i++) {   // 순서: 1 - int i = 0, 2 - i < charArray.length, 3 - {실행문}, 4 - i++
             charArray[i] = str.charAt(i);
         }       //전용 메서드가 있음  매서드로 문자형 배열 열기
         //charArray = str.tocharArray(); 'to:변환' -> '문자배열로 변환하겠다'    to:변환 str:문자 char:? Array:배열

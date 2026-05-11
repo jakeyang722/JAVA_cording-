@@ -12,20 +12,23 @@ public class SchoolCafeteriaExample {
 
         Scanner sc = new Scanner(System.in);
 
-        int[] array1 = new int[20]; //20 들어감
+//        int[] array1 = new int[20]; //20 들어감
+//
+//        int count1;
+//        int count2;
+//        int count3;
+//
+//        do {
+//            System.out.println("만족도를 선택해주세요: \n" + "1. 불만족" + "2. 보통" + "3.만족");
+//
+//        }while ( < 1 || >3)
+//        for (int i = 0; i < array1.length; i++) {
 
-        int count1;
-        int count2;
-        int count3;
 
-        do {
-            System.out.println("만족도를 선택해주세요: \n" + "1. 불만족" + "2. 보통" + "3.만족");
-
-
-        }while (< 1 || >3)
-        for (int i = 0; i < array1.length; i++) {
-
-
+        int[] responses = { 1, 2, 1,2,3,1,2,2,3,1,3,3,1,1,1,2,3,1,3,2 };
+        int dissatified = 0; //불만족 (1)
+        int neutral = 0;     //보통 (2)
+        int satified = 0;    //만족 (3)
 
 
 

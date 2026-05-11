@@ -3,6 +3,7 @@ package exam_array;
 public class ArrayExample1 {
     static void main(String[] args) {
         int[] numbers = {10,20,30};
+
         /*
         int[] numbers = new int[3];
         numbers[0] = 10;
@@ -10,9 +11,14 @@ public class ArrayExample1 {
         numbers[2] = 30;
          */
 
-        System.out.println("numbers[0] = " + numbers[0]);
-        System.out.println("numbers[1] = " + numbers[1]);
-        System.out.println("numbers[2] = " + numbers[2]);
+        System.out.println("numbers[0] = " + numbers[0]);  //10
+        System.out.println("numbers[1] = " + numbers[1]);  //20
+        System.out.println("numbers[2] = " + numbers[2]);  //30
+        System.out.println();
+
+        for(int number : numbers) {
+            System.out.println(number);
+        }
         System.out.println();
 
         double[] arrayDouble = new double[2];
@@ -26,10 +32,18 @@ public class ArrayExample1 {
         arrayString[1] = "oracle";
         arrayString[2] = "springboot";
 
+        for (String arrayplus : arrayString) {
+
+        }
+
         //String[] arrayString = new String[]{"java", "oracle", "springboot"};
 
         for (int i = 0; i < 3; i++) {
             System.out.println("arrayStirng[" + i + "] = " + arrayString[i]);
+        }
+
+        for(String languege : arrayString){
+            System.out.println(languege);
         }
     }
 }
